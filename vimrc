@@ -55,6 +55,7 @@ set scrolloff=7                 " keep 3 lines when scrolling
 " show
 set ruler                       " show the current row and column
 set number                      " show line numbers
+set relativenumber              " show relative line numbers
 set nowrap
 set showcmd                     " display incomplete commands
 set showmode                    " display current modes
@@ -76,9 +77,9 @@ set shiftround
 
 " indent
 set autoindent smartindent shiftround
-set shiftwidth=4
-set tabstop=4
-set softtabstop=4                " insert mode tab and backspace use 4 spaces
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2                " insert mode tab and backspace use 4 spaces
 
 " NOT SUPPORT
 " fold
