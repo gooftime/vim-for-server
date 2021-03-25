@@ -53,14 +53,16 @@ set scrolloff=7                 " keep 3 lines when scrolling
 
 
 " show
-set ruler                       " show the current row and column
+" set ruler                       " show the current row and column
 set number                      " show line numbers
 set relativenumber              " show relative line numbers
-set nowrap
+" set nowrap
+set wrap
 set showcmd                     " display incomplete commands
 set showmode                    " display current modes
 set showmatch                   " jump to matches when entering parentheses
 set matchtime=2                 " tenths of a second to show the matching parenthesis
+set textwidth=80
 
 
 " search
